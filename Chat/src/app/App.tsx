@@ -78,7 +78,7 @@ export default (): JSX.Element => {
         return (
           <EndScreen
             rejoinHandler={() => {
-              setPage('chat'); // use stored information to attempt to rejoin the chat thread
+              //setPage('chat'); // use stored information to attempt to rejoin the chat thread
             }}
             homeHandler={() => {
               window.location.href = window.location.origin;
